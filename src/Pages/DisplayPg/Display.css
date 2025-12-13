@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+.carousel-img {
+    height: 600px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .carousel-img {
+        height: 250px;
+    }
+
+    .section-font {
+        font-size: 30px;
+        line-height: 1.3;
+    }
+
+    .seccion-two {
+        padding: 20px 10px;
+    }
+}
+
+.seccion-two {
+    padding: 40px 20px;
+}
+
+
+.section-font {
+
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #a9802a;
+    font-size: 32px;
+    text-align: center;
+
+}
+
+
+.section-two2 {
+    font-size: 18px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.section-two3 {
+    font-family: "Josefin Sans", sans-serif;
+    color: #a9802a;
+}
+
+.display-button {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-section{
+    background:rgba(255, 182, 193, 0.274);
+    height: 100vh;
+    
+}
+
+.product-heading {
+
+    font-family: "Josefin Sans", sans-serif;
+    color: #a9802a;
+    padding-top: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.product-image{
+    background-color: whitesmoke;
+    padding-top: 50px;
+        padding-bottom: 50px;
+}
+
+
+/* 📱 Mobile */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .section-font {
+        font-size: 26px;
+        line-height: 1.4;
+    }
+
+    .section-two2 {
+        font-size: 10px;
+        margin-top: 5px;
+        margin-bottom: 1rem;
+    }
+
+    .section-two3-sub {
+        font-size: 10px;
+        text-align: justify;
+
+    }
+
+    .display-button {
+        width: 100%;
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+/* 📱 Tablet */
+@media (max-width: 992px) {
+    .section-font {
+        font-size: 24px;
+    }
+}

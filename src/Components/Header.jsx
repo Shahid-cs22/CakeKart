@@ -3,13 +3,14 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import LoginIcon from '@mui/icons-material/Login';
+import { Link } from 'react-router-dom';
 
-const Appbar = () => {
+const Header = () => {
     return (
         <div>
             <Navbar expand="lg" className="navbar-bg">
                 <Container fluid>
-                    <Navbar.Brand href="#home" className='nav-brand'>
+                    <Navbar.Brand as={Link} to="/" className='nav-brand'>
                         <img
                             alt=""
                             src="/cake-logo1.svg"
@@ -22,11 +23,12 @@ const Appbar = () => {
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
                         <Nav className="ms-auto my-2 my-lg-0 nav-brand gap-2 align-items-center" navbarScroll>
-                            <Nav.Link href="#aboutus">About Us</Nav.Link>
-                            <Nav.Link href="#product">Products</Nav.Link>
-                            <Nav.Link href="#speciality">Speciality Cakes</Nav.Link>
-                            <Nav.Link href="#christmass">Christmass Cakes</Nav.Link>
-                            <Nav.Link href="#contact">Contact Us</Nav.Link>
+                            <Nav.Link as={Link} to="/about">About Us</Nav.Link>
+                            <Nav.Link as={Link} to="/product">Products</Nav.Link>
+                            <Nav.Link as={Link} to="/speciality">Speciality Cakes</Nav.Link>
+                            <Nav.Link as={Link} to="/christmass">Christmass Cakes</Nav.Link>
+                            <Nav.Link as={Link} to="/contact">Contact Us</Nav.Link>
+                          
 
                             <Nav.Item>
                                 <Button
@@ -48,4 +50,4 @@ const Appbar = () => {
     )
 }
 
-export default Appbar
+export default Header
