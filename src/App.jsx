@@ -8,9 +8,8 @@ import Christmass from './Pages/Chriatmass/Christmass';
 import Contact from './Pages/ContactPg/Contact';
 import { Route, Routes } from 'react-router-dom';
 import Display from './Pages/DisplayPg/Display';
-
-
-
+import AddToCart from './Pages/AddCart/AddToCart';
+import Footer from './Components/Footer.jsx'
 
 
 
@@ -27,10 +26,12 @@ const App = () => {
         <Route path='/speciality' element={<Speciality />} />
         <Route path='/christmass' element={<Christmass />} />
         <Route path='/contact' element={<Contact />} />
-            
+        <Route path='/cart' element={<AddToCart />} />
+        <Route path='/footer' element={<Footer />} />
+       
 
       </Routes>
-    
+
     </>
   )
 }

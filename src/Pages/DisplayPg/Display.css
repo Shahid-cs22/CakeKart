@@ -120,26 +120,36 @@
     justify-content: center;
     align-items: center;
     margin: 100px;
-    ;
+
 }
 
 .section-four-btn {
     background-color: rgba(144, 238, 144, 0.733);
     font-size: 18px;
-    width: 100px;
-    height: 30px;
+    width: 150px;
+    height: 35px;
     border-radius: 5px;
     border: none;
+    font-family: "Josefin Sans", sans-serif;
 
 }
 
 .section-four-btn:active {
     background-color: rgb(144, 238, 144);
+
 }
 
+.section-heading-one {
+    color: #a9802a;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Josefin Sans", sans-serif;
+}
 
-
-
+.section-img {
+    max-width: 100%;
+    height: auto;
+}
 
 
 
@@ -190,6 +200,17 @@
     .product-image p {
         font-size: 13px;
     }
+
+    .section-heading-one {
+        font-size: 10px;
+    }
+    .section-img img {
+        margin-top: 25px;
+    }
+
+  
+
+    
 }
 
 /*  Tablet */
@@ -208,4 +229,6 @@
     .product-image img {
         height: 250px;
     }
+
+    
 }

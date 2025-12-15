@@ -147,26 +147,39 @@ const Display = () => {
 
 
             <div className="section-four">
-                <Row>
+                <Row className="align-items-center">
 
-                    <Col>
-                        <h3>Packed with love & all your favourites!</h3>
-                        <p>Now gift your loved ones our special hampers curated with our signature products.</p>
-                        <input type="button" value="Know More" className='section-four-btn' />
+                    <Col lg={6} sm={6} xs={12}>
+                        <p className="section-heading-one">
+                            Packed with love & all your favourites!
+                        </p>
+                        <p className="section-heading-two">
+                            Now gift your loved ones our special hampers curated with our signature products.
+                        </p>
+                        <input type="button" value="Know More" className="section-four-btn mt-4" />
                     </Col>
-                    <Col className='align-middle'>
-                        <img src={img12} alt="" style={{ width: "300px" }} />
+
+                    <Col lg={6} sm={6} xs={12} className="text-center">
+                        <img src={img12} alt="" className="img-fluid section-img" />
+                    </Col>
+
+                </Row>
+
+                <Row className="pt-5 align-items-center">
+                    <Col lg={6} sm={6} xs={12} className="text-center order-lg-1 order-2">
+                        <img src={img13} alt="" className="img-fluid section-img" />
+                    </Col>
+
+                    <Col lg={6} sm={6} xs={12} className="order-lg-2 order-1">
+                        <p className="section-heading-one">Tea-Time Delights</p>
+                        <p className="section-heading-two">
+                            Pick the perfect companion for your tea (or coffee!) from a range of tea cakes & more.
+                        </p>
+                        <input type="button" value="Know More" className="section-four-btn mt-4" />
                     </Col>
                 </Row>
-                <Row>
-
-                    <Col><img src={img13} alt="" style={{ width: "300px" }} /></Col>
-                    <Col> <h3>Tea-Time Delights</h3>
-                        <p>Pick the perfect companion for your tea (or coffee!) from a range of tea cakes & more.</p>
-                    </Col>
-                </Row>
-
             </div>
+
 
 
         </>

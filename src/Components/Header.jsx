@@ -4,6 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import LoginIcon from '@mui/icons-material/Login';
 import { Link } from 'react-router-dom';
+import ShoppingCartCheckoutIcon from '@mui/icons-material/ShoppingCartCheckout';
 
 const Header = () => {
     return (
@@ -28,6 +29,7 @@ const Header = () => {
                             <Nav.Link as={Link} to="/speciality">Speciality Cakes</Nav.Link>
                             <Nav.Link as={Link} to="/christmass">Christmass Cakes</Nav.Link>
                             <Nav.Link as={Link} to="/contact">Contact Us</Nav.Link>
+                             <Nav.Link as={Link} to="/cart"><ShoppingCartCheckoutIcon/></Nav.Link>
                           
 
                             <Nav.Item>
