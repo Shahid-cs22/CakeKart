@@ -1,3 +1,43 @@
-.about-section{
+.about-section {
     font-weight: 500;
+}
+
+.about-one {
+    text-align: center;
+}
+
+.about-two img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* color: #a9802a;
+ font-family: "Josefin Sans", sans-serif; */
+
+.para {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+
+}
+
+
+
+
+/*  Mobile */
+@media (max-width: 575.98px) {
+    .para {
+        font-size: 12px;
+    }
+}
+
+
+/*Desktop*/
+@media (min-width: 992px) {
+    .para {
+        font-size: 14px;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
 }

@@ -169,20 +169,21 @@
 
 
 /*  Mobile */
-@media (min-width: 576px) and (max-width: 767.98px) {
+/* (min-width: 576px) and (max-width: 767.98px) */
+@media (max-width: 575.98px) {
     .section-font {
         font-size: 26px;
         line-height: 1.4;
     }
 
     .section-two2 {
-        font-size: 10px;
+        font-size: 14px;
         margin-top: 5px;
         margin-bottom: 1rem;
     }
 
     .section-two3-sub {
-        font-size: 10px;
+        font-size: 14px;
         text-align: justify;
 
     }
@@ -202,7 +203,7 @@
     }
 
     .section-heading-one {
-        font-size: 10px;
+        font-size: 14px;
     }
     .section-img img {
         margin-top: 25px;
