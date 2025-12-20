@@ -1,3 +1,72 @@
-.speciality-section{
-    font-weight: 500;
+* {
+     font-family: "Josefin Sans", sans-serif;
 }
+
+.specal-section {
+     text-align: center;
+
+}
+
+.special-one {
+     margin-top: 50px;
+     color: #a9802a;
+     font-weight: bold;
+}
+
+.specal-one-para {
+     margin: 15px 100px;
+     text-align: justify;
+     font-size: 18px;
+
+}
+
+.specal-two-p {
+     color: #a9802a;
+     font-weight: bold;
+     margin-top: 10px;
+}
+
+.about-four-btn {
+  background-color: rgba(144, 238, 144, 0.733);
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+  font-family: "Josefin Sans", sans-serif;
+  display: block;
+  margin: 0 auto;   /* 👈 centers horizontally */
+  height: 30px;
+  width: 150px;
+  font-weight:600;
+}
+
+.specal-three-two{
+     margin: 0px 150px;
+     text-align: justify;
+}
+
+
+
+
+
+
+
+
+/*  Mobile */
+@media (max-width: 575.98px) {
+     .specal-one-para {
+          font-size: 14px;
+          margin: 15px 50px;
+     }
+
+     .specal-two-p {
+          font-size: 14px;
+     }
+}
+
+
+/* Tab */
+@media (min-width: 576px) and (max-width: 991.98px) {}
+
+
+/*Desktop*/
+@media (min-width: 992px) {}

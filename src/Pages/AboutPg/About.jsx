@@ -92,12 +92,10 @@ const About = () => {
 
               {
                 manager.map((data) => (
-                  <Col key={data.id} xs={4} md={4} lg={4} className="text-center">
+                  <Col key={data.id} xs={12} md={4} lg={4} className="text-center" style={{alignItems:"center"}}>
                     <img
-                      src={data.image}
-
-                      className="img-fluid image-img  mb-3 text-center"
-                      style={{ width:"250px", height:"auto", objectFit: "cover", backgroundColor: "white", alignItems:"center", borderRadius:"20px"}}
+                      src={data.image} className="img-fluid image-img  mb-3 "
+                      style={{ width:"250px", height:"auto", objectFit: "cover", backgroundColor: "white",  borderRadius:"8px", alignItems:"center" , margin:"auto"}}
                     />
                     <h5 className='manager-name'>{data.name}</h5>
                     <p className='manager-description'>{data.description}</p>

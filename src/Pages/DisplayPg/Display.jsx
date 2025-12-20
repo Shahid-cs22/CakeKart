@@ -94,24 +94,12 @@ const Display = () => {
 
                 </Row>
 
-
+                <input type="button" value="Know More " className="display-button" />
 
             </div>
 
-            <Button className="display-button"
-                variant="contained"
-                sx={{
-                    fontFamily: "Josefin Sans, sans-serif",
-                    backgroundColor: "lightgreen",
-                    color: "black",
-                    fontWeight: 400,
-                    "&:hover": {
-                        backgroundColor: "#90ee90",
-                    },
-                }}
-            >
-                Know More
-            </Button>
+
+
 
             <div className="product-section">
                 <h2 className="product-heading">Our Products</h2>
