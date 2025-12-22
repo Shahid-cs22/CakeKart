@@ -1,24 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
+
+
 .carousel-img {
+    width: 100%;
     height: 600px;
     object-fit: cover;
 }
 
-@media (max-width: 768px) {
-    .carousel-img {
-        height: 250px;
-    }
 
-    .section-font {
-        font-size: 30px;
-        line-height: 1.3;
-    }
-
-    .seccion-two {
-        padding: 20px 10px;
-    }
-}
 
 .seccion-two {
     padding: 40px 20px;
@@ -111,7 +101,7 @@
     margin: 0 auto;
     height: 30px;
     width: 150px;
-    
+
 }
 
 .product-btn:active {
@@ -163,7 +153,20 @@
 
 
 
+@media (max-width: 768px) {
+    .carousel-img {
+        height: 250px;
+    }
 
+    .section-font {
+        font-size: 30px;
+        line-height: 1.3;
+    }
+
+    .seccion-two {
+        padding: 20px 10px;
+    }
+}
 
 
 
@@ -219,11 +222,15 @@
         align-content: center;
     }
 
-    .product-btn{
+    .product-btn {
         margin-bottom: 20px;
     }
 
+    .carousel-img {
+        height: 250px;
 
+
+    }
 }
 
 /*  Tablet */
@@ -234,6 +241,14 @@
 
     .product-image img {
         height: 100px;
+    }
+
+    .carousel-img {
+        height: 250px;
+    }
+
+    .carousel-img {
+        height: 400px;
     }
 }
 
