@@ -1,6 +1,6 @@
 import React from 'react'
 import './AddTOCart.css'
-const AddTOCart = () => {
+const AddToCart = () => {
   return (
     <>
   
@@ -8,4 +8,4 @@ const AddTOCart = () => {
   )
 }
 
-export default AddTOCart
+export default AddToCart
