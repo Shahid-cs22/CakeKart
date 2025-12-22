@@ -6,6 +6,7 @@ import img2 from "../../assets/special-img2.jpg"
 import img3 from "../../assets/special-img3.jpg"
 import img4 from "../../assets/special-img4.jpg"
 import img5 from "../../assets/special-img5.jpg"
+import img6 from "../../assets/special-img7.jpg"
 const Speciality = () => {
     return (
         <>
@@ -59,6 +60,25 @@ const Speciality = () => {
                         Write to us with your customized theme cake requirements at - contact@theobroma.in
                     </div>
                 </div>
+
+
+                <div className="specal-four">
+                    <div className="special-title">
+                        <h2 className='specal-four-title'>Pre Order Now!</h2>
+                        <p className='specal-four-p'>To pre-order, call us at +91 8182881881 or write to us at contact@theobroma.in</p>
+                    </div>
+
+                    <div className="specal-four-btn">
+                        <input type="button" value="Call Now" />
+                        <input type="button" value="Mail Us" />
+                    </div>
+
+                    <div className="specal-four-img">
+                        <img src={img6} alt="" className='img-fluid' />
+                    </div>
+
+                </div>
+
             </div>
 
         </>

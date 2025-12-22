@@ -1,0 +1,104 @@
+* {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.product-details-section {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #dbdbdb75;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+
+.product-details-head h2 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #a9802a;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.product-details-para {
+    text-align: center;
+    font-weight: 600;
+}
+
+.product-details-para img {
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    margin: 0 auto;
+}
+
+.product-details-para p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 8px;
+    color: #444;
+}
+
+
+.product-details-para b {
+    color: #000;
+    font-size: 17px;
+}
+
+.product-details-section .d-flex {
+    margin-top: 25px;
+}
+
+
+.product-details-section button {
+    min-width: 180px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 8px 14px;
+    border-radius: 6px;
+
+}
+
+
+.product-details-section button:hover {
+    opacity: 0.9;
+
+}
+
+.btn-btn-color{
+     background-color: rgba(144, 238, 144, 0.733);
+    width: 180px;
+    font-family: "Josefin Sans", sans-serif;
+    border-radius: 5px;
+}
+
+.btn-btn-color:active{
+    transform: scale(0.98);
+     background-color: rgba(144, 238, 144, 0.89);
+}
+
+
+/* Mobile responsive */
+@media (max-width: 576px) {
+    .product-details-section {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .product-details-head h2 {
+        font-size: 22px;
+    }
+
+    .product-details-para img {
+        max-width: 260px;
+    }
+
+    .product-details-section button {
+        min-width: 140px;
+        font-size: 14px;
+    }
+}

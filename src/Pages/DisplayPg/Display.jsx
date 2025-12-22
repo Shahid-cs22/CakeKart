@@ -19,9 +19,13 @@ import './Display.css';
 import { Col, Row } from 'react-bootstrap';
 // import { Button } from 'react-bootstrap'
 import Button from "@mui/material/Button";
+import { useNavigate } from 'react-router-dom';
 
 
 const Display = () => {
+
+    const navi = useNavigate();
+    const goToProduct = () => navi('/product');
     return (
         <>
             <Carousel fade interval={3000} pause="hover">
@@ -94,7 +98,7 @@ const Display = () => {
 
                 </Row>
 
-                <input type="button" value="Know More " className="display-button" />
+                <input type="button" value="Know More "  className="display-button" />
 
             </div>
 
@@ -128,7 +132,7 @@ const Display = () => {
 
 
                 </Row>
-                <input type="button" value="View More" className='product-btn text-center' />
+                <input type="button" value="View More" onClick={goToProduct} className='product-btn text-center' />
 
 
             </div>

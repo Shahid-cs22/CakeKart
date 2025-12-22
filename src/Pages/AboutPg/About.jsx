@@ -78,15 +78,7 @@ const About = () => {
 
         <div className="about-three" >
 
-          {/* {
-            manager.map((data) => (
-              <div key={data.id}>
-                <h5>{data.name}</h5>
-                <h6>{data.description}</h6>
-               <img src={data.image} alt=""  style={{ width: "150px", height: "150px" }}/>
-              </div>
-            ))
-          } */}
+         
           <Container>
             <Row className="g-1">
 

@@ -99,20 +99,29 @@
 }
 
 .about-four-btn {
-  background-color: rgba(144, 238, 144, 0.733);
-  font-size: 15px;
-  border-radius: 5px;
-  border: none;
-  font-family: "Josefin Sans", sans-serif;
-  display: block;
-  margin: 0 auto;   /* 👈 centers horizontally */
-  height: 30px;
-  width: 150px;
+    background-color: rgba(144, 238, 144, 0.733);
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    font-family: "Josefin Sans", sans-serif;
+    display: block;
+    margin: 0 auto;
+    /* 👈 centers horizontally */
+    height: 30px;
+    width: 150px;
 }
+
+
 
 /* .about-fout img{
     height: 80vh;
 } */
+
+
+
+
+
+
 
 /*  Mobile */
 @media (max-width: 575.98px) {
@@ -136,7 +145,8 @@
     .about-three p {
         font-size: 12px;
     }
-    .manager-name{
+
+    .manager-name {
         font-size: 15px;
     }
 }
@@ -144,7 +154,7 @@
 /* Tab */
 @media (min-width: 576px) and (max-width: 991.98px) {
 
-     .manager-name{
+    .manager-name {
         font-size: 16px;
     }
 }

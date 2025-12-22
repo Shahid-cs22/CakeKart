@@ -40,77 +40,107 @@
     "product": [
         {
             "id": 1,
-            "description": "Brownies",
+            "name": "Brownie",
+            "description": "Rich, fudgy chocolate brownie with a soft center.",
+            "price": 80,
             "image": "/images/product-img-001.jpg"
         },
         {
             "id": 2,
-            "description": "Breads",
+            "name": "Breads",
+            "description": "Freshly baked artisan breads made with premium flour.",
+            "price": 50,
             "image": "/images/product-img01.jpg"
         },
         {
             "id": 3,
-            "description": "Croissants & Danishes",
+            "name": "Croissants & Danishes",
+            "description": "Buttery croissants and flaky danishes baked to perfection.",
+            "price": 90,
             "image": "/images/product-img02.jpg"
         },
         {
             "id": 4,
-            "description": "Pastries",
+            "name": "Pastries",
+            "description": "Cream-filled pastries topped with rich flavors.",
+            "price": 110,
             "image": "/images/product-img03.jpg"
         },
         {
             "id": 5,
-            "description": "Beverages",
+            "name": "Beverages",
+            "description": "Hot and cold beverages to perfectly complement your snacks.",
+            "price": 60,
             "image": "/images/product-img04.jpg"
         },
         {
             "id": 6,
-            "description": "Sandwiches & Savouries",
+            "name": "Sandwiches & Savouries",
+            "description": "Delicious savory snacks and freshly prepared sandwiches.",
+            "price": 120,
             "image": "/images/product-img05.jpg"
         },
         {
             "id": 7,
-            "description": "Biscuits, Cookies & Crackers",
+            "name": "Biscuits, Cookies & Crackers",
+            "description": "Crunchy biscuits, cookies, and crackers for every occasion.",
+            "price": 70,
             "image": "/images/product-img06.jpg"
         },
         {
             "id": 8,
-            "description": "Cakes",
+            "name": "Cakes",
+            "description": "Soft and flavorful cakes made for celebrations and treats.",
+            "price": 450,
             "image": "/images/product-img07.jpg"
         },
         {
             "id": 9,
-            "description": "Combos",
+            "name": "Combos",
+            "description": "Special combo packs offering great taste and value.",
+            "price": 250,
             "image": "/images/product-img08.jpg"
         },
         {
             "id": 10,
-            "description": "Desserts & Cupcakes",
+            "name": "Desserts & Cupcakes",
+            "description": "Sweet desserts and cupcakes topped with creamy frostings.",
+            "price": 95,
             "image": "/images/product-img09.jpg"
         },
         {
             "id": 11,
-            "description": "Tea Cakes",
+            "name": "Tea Cakes",
+            "description": "Light and moist tea cakes perfect with your evening tea.",
+            "price": 180,
             "image": "/images/product-img10.jpg"
         },
         {
             "id": 12,
-            "description": "Gifting",
+            "name": "Gifting",
+            "description": "Beautifully packed bakery items perfect for gifting.",
+            "price": 350,
             "image": "/images/product-img11.jpg"
         },
         {
             "id": 13,
-            "description": "Collectibles",
+            "name": "Collectibles",
+            "description": "Limited edition bakery collectibles and special treats.",
+            "price": 300,
             "image": "/images/product-img12.jpg"
         },
         {
             "id": 14,
-            "description": "Strawberry Specials",
+            "name": "Strawberry Specials",
+            "description": "Seasonal strawberry-based desserts and bakery items.",
+            "price": 220,
             "image": "/images/product-img13.jpg"
         },
         {
             "id": 15,
-            "description": "Christmas Specials",
+            "name": "Christmas Specials",
+            "description": "Festive baked goodies specially made for Christmas.",
+            "price": 400,
             "image": "/images/product-img14.jpg"
         }
     ]
