@@ -93,6 +93,21 @@ const Contact = () => {
           </Col>
         </Row>
       </div>
+
+      <div className="contact-two">
+        <Row>
+          <Col>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20929.519569449403!2d77.40804784350628!3d8.176484183086838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b04f0dfc0ddc7b7%3A0x809a9e32a95d3ed1!2sNagercoil%2C%20Tamil%20Nadu!5e1!3m2!1sen!2sin!4v1766468069395!5m2!1sen!2sin"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
+
+          </Col>
+        </Row>
+      </div>
     </div>
   );
 };
