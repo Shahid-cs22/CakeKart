@@ -6,7 +6,7 @@ import './ProductDetails.css'
 import ShoppingCartCheckoutIcon from '@mui/icons-material/ShoppingCartCheckout';
 import { useDispatch } from "react-redux";
 import { addItem } from "../../Reduxx/CartSlice";
-
+const apiUrl = import.meta.env.VITE_API_URL;
 const ProductDetails = () => {
 
     const { id } = useParams()
@@ -19,7 +19,7 @@ const ProductDetails = () => {
 
     useEffect(() => {
         axios
-            .get(`http://localhost:3000/product/${Number(id)}`)
+            .get(`${apiUrl}/product/${id}`)
             .then(res => setProduct(res.data))
             .catch(() => setProduct(false))
     }, [id])
