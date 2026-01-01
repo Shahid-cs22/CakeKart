@@ -4,13 +4,15 @@ import axios from 'axios'
 import { Button } from 'react-bootstrap'
 import './ProductDetails.css'
 import ShoppingCartCheckoutIcon from '@mui/icons-material/ShoppingCartCheckout';
+import { useDispatch } from "react-redux";
+import { addItem } from "../../Reduxx/CartSlice";
 
 const ProductDetails = () => {
 
     const { id } = useParams()
     const navigate = useNavigate()
     const [product, setProduct] = useState(null)
-
+    const dispatch = useDispatch();
     const goToProduct = () => navigate('/product')
 
 
@@ -23,6 +25,9 @@ const ProductDetails = () => {
     }, [id])
 
 
+    function addItems(){
+        dispatch(addItem(product));
+    }
 
     if (product === null) return <div className="text-center mt-5">Loading...</div>
     if (product === false) return <div className="text-center mt-5">Product not found</div>
@@ -42,7 +47,7 @@ const ProductDetails = () => {
             <div className="d-flex justify-content-center gap-3 mt-3">
                 <input type="button" value="Go To Product List" onClick={goToProduct} className='btn-btn-color' />
 
-                <Button variant="warning" >
+                <Button variant="warning" onClick={addItems}>
                     <ShoppingCartCheckoutIcon /> Add to Cart
                 </Button>
             </div>
